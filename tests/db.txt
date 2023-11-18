@@ -1,0 +1,62 @@
+~~~> ticket-system> db.tickets.find()
+
+[
+  {
+    _id: ObjectId('65487950655ca5df47d1abed'),
+    title: 'Test',
+    description: 'This works yayyyyyyyyyyyyyyyyyyyyyyyy',
+    status: 'Pending',
+    createdBy: 'Syed',
+    assignedTo: 'Khalid',
+    dateCreated: ISODate("2023-11-06T05:27:44.283Z"),
+    __v: 0
+  },
+  {
+    _id: ObjectId('654895e3cf1d62149abe5014'),
+    title: 'Sample Ticket',
+    description: 'This is a sample ticket',
+    status: 'Open',
+    createdBy: 'user123',
+    assignedTo: 'admin456',
+    dateCreated: ISODate("2023-11-06T07:29:39.725Z"),
+    __v: 0
+  },
+  {
+    _id: ObjectId('6548a62f5bdbc910441f3a70'),
+    title: 'Test -2',
+    description: 'y is yo millyyyyyy',
+    status: 'Resolved',
+    createdBy: 'Metal Face',
+    assignedTo: 'CZar',
+    dateCreated: ISODate("2023-11-06T08:39:11.986Z"),
+    __v: 0
+  }
+]
+
+
+
+{
+  "_id": {
+    "$oid": "654dcc4a30fb7895657f59c5"
+  },
+  "firstName": "Nitin Kumar",
+  "lastName": "jha",
+  "email": "jhanitin906@gmail.com",
+  "password": "$2b$10$V/2gWcpOTzv.4lWlIjL6ieHFJtc67Th.w5DhrCDnVD7tDFF5x2d0.",
+  "accountType": "Client",
+  "active": true,
+  "approved": true,
+  "additionalDetails": {
+    "$oid": "654dcc4830fb7895657f59c3"
+  },
+  "tickets": [],
+  "image": "https://api.dicebear.com/6.x/initials/svg?seed=Nitin Kumar jha&backgroundColor=00897b,00acc1,039be5,1e88e5,3949ab,43a047,5e35b1,7cb342,8e24aa,c0ca33,d81b60,e53935,f4511e,fb8c00,fdd835,ffb300,ffd5dc,ffdfbf,c0aede,d1d4f9,b6e3f4&backgroundType=solid,gradientLinear&backgroundRotation=0,360,-350,-340,-330,-320&fontFamily=Arial&fontWeight=600",
+  "ticketProgress": [],
+  "createdAt": {
+    "$date": "2023-11-10T06:23:06.305Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-10T06:23:06.305Z"
+  },
+  "__v": 0
+}
